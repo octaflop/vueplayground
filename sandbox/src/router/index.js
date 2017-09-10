@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/demo',
-      name: 'demoTransition',
+      name: 'demotransition',
       component: demotransition
     }
   ]

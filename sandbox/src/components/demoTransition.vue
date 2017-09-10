@@ -1,5 +1,6 @@
 <template>
   <div class="demo">
+    <h3>Fade Demo</h3>
     <button v-on:click="show = !show">
       Toggle
     </button>
@@ -12,7 +13,6 @@
 <script>
 export default {
   name: 'demotransition',
-  el: '.demo',
   data () {
     return {
       show: true
